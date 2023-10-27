@@ -1,0 +1,76 @@
+*{
+  margin: 0px;
+}
+.container{
+  background-color: blueviolet;
+  width: 40%;
+  position: relative;
+  left: 300px;
+  top: 130px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.container:hover{
+  box-shadow: 10px 10px 30px;
+  scale: 1.02;
+}
+h1{
+  margin-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input1{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.input2{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+p{
+  font-size: 20px;
+}
+input{
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 0;
+  margin-left: 20px;
+  font-size: 20px;
+}
+input:hover{
+  background-color: rgba(128, 128, 128, 0.613);
+}
+button{
+  padding: 12px 27px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: 0px;
+  font-weight: 600;
+  background-color: rgba(198, 224, 83, 0.697);
+}
+button:hover{
+  background-color: rgb(191, 225, 40);
+  cursor: pointer;
+}
+h3{
+  margin-top: 20px;
+}
+h2{
+  color: rgb(204, 255, 0);
+  font: 20px;
+}
+img{
+  position: relative;
+  left: 75%;
+  bottom: 200px;
+}
+img:hover{
+  box-shadow: 5px 5px 20px;
+  scale: 1.02;
+}
